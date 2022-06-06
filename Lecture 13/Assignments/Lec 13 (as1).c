@@ -35,6 +35,7 @@ void solveMidpoint(struct line line1){
 float solveDistance(struct line line1){
     float distance, xSquared, ySquared;
 
+    // squares values needed for distance formula
     xSquared = pow(line1.point1.x - line1.point2.x, 2);
     ySquared = pow(line1.point1.y - line1.point2.y, 2);
 
