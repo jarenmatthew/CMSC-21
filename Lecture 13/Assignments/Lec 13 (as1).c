@@ -8,7 +8,7 @@ struct line{
         float y;
     }point1, point2;
 
-    float midpoint[2];
+    float midpoint;
     float slope;
     float distance;
 } line1;
